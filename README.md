@@ -1,2 +1,1 @@
-# madexperience.github.io
-Simple-Stack-Game
+Simple-Stack-Game only use JAVASCRIPT
