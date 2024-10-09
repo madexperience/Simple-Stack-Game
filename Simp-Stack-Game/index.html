@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stack Game</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+
+<div id="container">
+  <div id="game"></div>
+  <div id="score">0</div>
+  <div id="instructions">스페이스바를 눌러 블럭을 놓으세요!</div>
+  <div class="game-over">
+    <h2>Game Over</h2>
+    <p>스페이스바를 눌러 재시작</p>
+  </div>
+  <div class="game-ready">
+    <div id="start-button">시 작</div>
+    <div id="rank-button">랭 크</div>
+	<div id="faq-button">게시판</div>
+  </div>
+  <div class="forms">
+	<div id="rank-form">
+		<div style="font-size: 25px; text-align: center;">랭 크</div>
+		<hr style="border: 0; border-top: 3px solid #000; margin: 8px 0;">
+		<div id="login-button">로그인</div>
+	</div>
+	<div id="faq-form">
+		<div style="font-size: 25px; text-align: center;">자 유 게 시 판</div>
+		<hr style="border: 0; border-top: 3px solid #000; margin: 8px 0;">
+		<div id="post-button">게시하기</div>
+	</div>
+  </div>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
+<script src="src/script.js"></script>
+
+</body>
+</html>
